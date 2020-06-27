@@ -74,7 +74,34 @@ a, a:hover {
   width: 100%;
   z-index: 1;
 }
+p.lead.gsap-reveal{
+  margin-bottom: 0;
+}
+p.lead.gsap-reveal span{
+  color: #D63447;
+  font-weight: 600;
+}
+.about-site-social {
+  list-style-type: none;
+  padding-left: 0;
+}
+.about-site-social li {
+  position: relative;
+  font-family: poppins;  
+}
+.about-site-social li a i{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 3px 5px;
+  border-radius: 25%;
+}
+.about-site-social li a i:hover{
+  border-color: #fff;
+}
 
+.about-site-social li a i{
+  margin-right: 9px;
+  font-size: 18px;
+}
 @media (max-width: 991.98px) {
   .unslate_co--site-inner {
     margin-bottom: auto !important;
