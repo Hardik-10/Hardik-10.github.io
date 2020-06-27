@@ -16,7 +16,9 @@ body {
   font-weight: 300;
   position: relative;
 }
-
+.unslate_co-site-inner{
+  padding-bottom: 0 !important;
+}
 body:before {
   content: "";
   position: absolute;
@@ -80,15 +82,16 @@ a, a:hover {
 }
 
 .unslate_co--footer {
-  position: fixed !important;
+  position: absolute !important;
   width: 100%;
   background-color: #191919;
   color: #fff;
   left: 0;
   right: 0;
   bottom: 0px;
-  z-index: -1;
+  z-index: 1;
   height: 300px;
+  padding-top: 3.5rem !important ;
 }
 
 @media (max-width: 991.98px) {
@@ -1126,7 +1129,10 @@ a, a:hover {
 .unslate_co--section {
   padding: 3.5rem 0;
 }
-
+.unslate_co--footer{
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
 @media (max-width: 767.98px) {
   .unslate_co--section {
     padding: 2rem 0;
