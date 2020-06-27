@@ -1777,6 +1777,9 @@ figure.dotted-bg:before {
   list-style: none;
   display: inline-block;
 }
+.col-sm-6  h2 span{
+  color:#D63447 !important;
+}
 
 @media (max-width: 991.98px) {
   .unslate_co--footer .footer-site-social li {
@@ -2068,8 +2071,11 @@ span.error {
     font-size: 5px;
     margin-bottom: 25px !important;
   }
-  .col-sm-6 h2{
+  .col-sm-6 h2 span{
     color: #D63447 !important;
+  }
+  .col-sm-6 h2{
+    font-size: 22px !important ;
   }
   .col-sm-6 h5{
     font-size: 17px !important ;
@@ -2113,14 +2119,20 @@ span.error {
     font-size: 5px;
     margin-bottom: 25px !important;
   }
-  .col-sm-6 h2{
+  .col-sm-6 h2 span{
     color: #D63447 !important;
   }
+  .col-sm-6 h2{
+    font-size: 20px !important ;
+  }
   .col-sm-6 h5{
-    font-size: 17px !important ;
+    font-size: 15px !important ;
   }
   .col-sm-6.col-md-push-6{
     padding-left: 0 !important;
+  }
+  .timeline-event:nth-child(even) .col-sm-6:first-child h5{
+    margin-left: -25px !important;
   }
   .timeline-event .col-sm-6:nth-child(3), .middle{
     visibility: hidden !important;
@@ -2146,17 +2158,28 @@ span.error {
     width: 60px;
     margin:0;
     left: 51.5% !important; 
-    padding:0;
+    padding:0;  
     text-align: center;
     height: 100%;
   }
-  .timeline-event:nth-child(2n+1) .col-sm-6:last-child{
+  .timeline-event{
+    /* left: 50% !important; */
+    right: 42px !important;
+  }
+  .timeline-event:nth-child(2n+1) .col-sm-6:last-child, .timeline-event:nth-child(2n) .col-sm-6:first-child{
     padding-right: 0 !important;
-    padding-left: inherit;
+    padding-left: 0;
+  }
+  .timeline-event:nth-child(2n+1) .col-sm-6:last-child p{
+    max-width: 74% !important;
+    margin-left: auto !important;  
+  }
+  .timeline-event:nth-child(2n) .col-sm-6:last-child p{
+    max-width: 80% !important;  
   }
   .timeline-event:nth-child(2n) .col-sm-6:first-child{
-    padding-right: 0 !important;
-    padding-left: inherit;
+    max-width: 74% important;
+    margin-left: auto !important;
   }
 }
 
@@ -2178,8 +2201,12 @@ span.error {
     padding-right: 0 !important;
     padding-left: inherit !important;
   }
+  .timeline-event:nth-child(2) .col-sm-6:first-child h2{
+    max-width: 75% !important;
+    margin-left: auto !important;
+  }
   .container .row .col-sm-12{
-    margin-left: 40px;
+    margin-left: 0;
     margin-right: auto !important;
   }
 }
