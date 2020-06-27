@@ -102,6 +102,32 @@ p.lead.gsap-reveal span{
   margin-right: 9px;
   font-size: 18px;
 }
+.icon{
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+.icon.blackcoffer{
+  background: url("/unfold/images/company/blackcoffer.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+  display: block;
+}
+.icon.bias{
+  background: url("/unfold/images/company/bias.jpg");
+  display: block;
+  height: 40px;
+  width: 40px;
+  display: block;
+}
+.icon.workalley{
+  background: url("/unfold/images/company/workalley.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+  display: block;
+}
+
 @media (max-width: 991.98px) {
   .unslate_co--site-inner {
     margin-bottom: auto !important;
