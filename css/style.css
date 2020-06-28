@@ -107,21 +107,21 @@ p.lead.gsap-reveal span{
   border-radius: 100%;
 }
 .icon.blackcoffer{
-  background: url("/unfold/images/company/blackcoffer.png");
+  background: url("../images/company/blackcoffer.png");
   display: block;
   height: 40px;
   width: 40px;
   display: block;
 }
 .icon.bias{
-  background: url("/unfold/images/company/bias.jpg");
+  background: url("../images/company/bias.jpg");
   display: block;
   height: 40px;
   width: 40px;
   display: block;
 }
 .icon.workalley{
-  background: url("/unfold/images/company/workalley.png");
+  background: url("../images/company/workalley.png");
   display: block;
   height: 40px;
   width: 40px;
