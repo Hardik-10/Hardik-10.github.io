@@ -106,6 +106,13 @@ p.lead.gsap-reveal span{
   border: 2px solid #fff;
   border-radius: 100%;
 }
+.icon.ericsson{
+  background: url("../images/company/ericsson.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+  display: block;
+}
 .icon.blackcoffer{
   background: url("../images/company/blackcoffer.png");
   display: block;
